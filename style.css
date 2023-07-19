@@ -1,0 +1,27 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input{
+    text-align: right;
+    border: none;
+    &:focus{
+        outline: none;
+    }
+    width: 300px;
+    height: 40px;
+}
+
+table{
+    border:1px solid;
+    border-radius: 5px;
+    padding:5px; 
+}
+button {
+    width: 70px;
+    height: 40px;
+    font-size:18px;
+    border: 1px solid gray;
+    border-radius:15px;
+    background-color: bisque;
+}
